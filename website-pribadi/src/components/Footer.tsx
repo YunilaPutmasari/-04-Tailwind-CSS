@@ -4,11 +4,7 @@ type FooterLinkProps = {
   };
   
   function FooterLink({ text, url }: FooterLinkProps) {
-    return (
-      <a className="transition hover:text-teal-500" href={url}>
-        {text}
-      </a>
-    );
+    return <a className="transition hover:text-teal-500" href={url}>{text}</a>;
   }
   
   export default function Footer() {
@@ -20,9 +16,8 @@ type FooterLinkProps = {
             <FooterLink text="Proyek" url="/projects" />
             <FooterLink text="Esai" url="/essays" />
           </div>
-          <p className="text-sm text-zinc-400">© 2023 Yunila Putmasari. All rights reserved.</p>
+          <p className="text-sm text-zinc-400">© 2024 Yunila Putmasari. All rights reserved.</p>
         </div>
       </footer>
     );
-  }
-  
+}
