@@ -16,7 +16,7 @@ type FooterLinkProps = {
             <FooterLink text="Proyek" url="/projects" />
             <FooterLink text="Esai" url="/essays" />
           </div>
-          <p className="text-sm text-zinc-400">© 2024 Yunila Putmasari. All rights reserved.</p>
+          <p className="text-sm text-zinc-400">© 2024 Yunila. All rights reserved.</p>
         </div>
       </footer>
     );
